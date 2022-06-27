@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+html{
+    font-family: sans-serif;
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(251deg, rgba(2,0,36,1) 0%, rgba(125,199,215,1) 100%, rgba(0,212,255,1) 100%);    
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+header, section,footer,aside,nav,article,hgroup{
+ /* border: 1px solid black; */
+ display: block;
+}
+
+.contenedor{
+    width: 920px;
+    margin: 0px  auto;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,148,215,1) 100%, rgba(0,212,255,1) 100%);    padding: 15px;
+    /* border: 1px solid black; */
+}
+
+.cabecera{
+    background-color: #1aa3b0;
+    padding: 20px;
+
+}
+.menu{
+    background-color: #124151;
+    padding: 15px ;
+    text-align: left;
+}
+li{
+    /* border: 1px solid white; */
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: #1aa3b0;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.seccion{
+    margin: 20px;
+    /* background-color: #124151; */
+    width: 600px;
+    float:  left;
+}
+
+.columna{
+    width: 200px;
+    padding: 10px;
+    float: left;
+    margin: 20px auto;
+    background-color: #dfe2e5;
+    border-radius: 20px;
+
+}
+
+.pie{
+    clear: both;
+    background-color:#0b3c4d ;
+}
+section{
+    padding: 10px;
+}
+
+.lorem-1{
+    background-color: #dfe2e5;
+    border-radius: 20px;
+    padding: 10px;
+}
+.lorem-2{
+    background-color:  #dfe2e5;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h6{
+   text-align: right;
+}
+blockquote{
+    margin-top: 20px;
+}
+blockquote h5{
+    color: black;
+}
+h5{
+    padding: 9px 5px;
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+#photo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    border: 1px solid rgb(12, 109, 48);
+    border-radius:  15px;
+}
